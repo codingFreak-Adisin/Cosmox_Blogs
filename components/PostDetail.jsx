@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Script from 'next/script';
 import moment from 'moment';
 
 const PostDetail = ({ post }) => {
@@ -44,6 +44,21 @@ const PostDetail = ({ post }) => {
 
   return (
     <>
+          <Script 
+  strategy='lazyOnload'
+  src={`https://www.googletagmanager.com/gtag/js?id=G-T1F7F6QT8G`}
+/>
+  <Script 
+  strategy='lazyOnload'>
+    {
+      `
+     window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-T1F7F6QT8G');
+    `
+    }
+  </Script>
       <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
         <div className="relative overflow-hidden shadow-md mb-6">
           <img src={post.featuredImage.url} alt="" className="object-top h-full w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg" />

@@ -9,7 +9,8 @@ export default function Home({posts}) {
       <Head>
         <title>Cosmox Blogs</title>
         <link rel="icon" href="/cosmox.png" />
-        <script data-ad-client="ca-pub-6912178017126023" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6912178017126023"
+     crossorigin="anonymous"></script>
       </Head>
       <FeaturedPosts />
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>

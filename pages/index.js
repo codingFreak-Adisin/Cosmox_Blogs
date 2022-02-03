@@ -8,7 +8,9 @@ export default function Home({posts}) {
     <div className="container mx-auto px-10 mb-8">
       <Head>
         <title>Cosmox Blogs</title>
-        <link rel="icon" href="/cosmox.png" /> /* Adsense code below */
+        <link rel="icon" href="/cosmox.png" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8930370657350556"
+     crossorigin="anonymous"></script>
       </Head>
       <FeaturedPosts />
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>

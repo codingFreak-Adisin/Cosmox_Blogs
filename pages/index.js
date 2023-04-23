@@ -10,7 +10,7 @@ export default function Home({posts}) {
         <title>Cosmox Blogs</title>
         <link rel="icon" href="/cosmox.png" />
         /* AdSense Code */
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8930370657350556"
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8431314884372015"
      crossorigin="anonymous"></script>
        /* AdSense Code */
       </Head>

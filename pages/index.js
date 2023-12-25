@@ -10,9 +10,10 @@ export default function Home({posts}) {
         <title>Cosmox Blogs</title>
         <link rel="icon" href="/cosmox.png" />
         /* AdSense Code*/
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8431314884372015"
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8431314884372015"
      crossorigin="anonymous"></script>
        /* AdSense Code */
+       <meta name="google-adsense-account" content="ca-pub-8431314884372015"></meta>
       </Head>
       <FeaturedPosts />
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>

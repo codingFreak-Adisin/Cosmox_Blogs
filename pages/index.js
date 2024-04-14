@@ -8,7 +8,7 @@ export default function Home({posts}) {
     <div className="container mx-auto px-10 mb-8">
       <Head>
         <title>Cosmox Blogs</title>
-        <link rel="icon" href="/cosmox.png" />
+        <link rel="icon" href="/cosmox.jpg" />
         /* AdSense Code*/
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8431314884372015"
      crossorigin="anonymous"></script>
